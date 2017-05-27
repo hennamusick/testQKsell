@@ -15,12 +15,16 @@ public class Home_ extends Base{
 		this.driver = driver;
 	}
 	
-	//Email
+	/*//Email
 	public By email = By.xpath("/html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[1]/div[1]/div/div[1]/div/div[1]/input");
 	public WebElement getEmail() {
 		return driver.findElement(email);
-	}
+	}*/
 	
+	public By signIn = By.xpath("/html/body/div[1]/div/div[2]/ul/li[5]/a");
+	public WebElement getSignIn() {
+		return driver.findElement(signIn);
+	}
 	
 
 }

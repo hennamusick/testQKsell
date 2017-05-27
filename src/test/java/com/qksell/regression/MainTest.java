@@ -14,10 +14,10 @@ public class MainTest {
 		Base b = new Base();
 		WebDriver driver = b.getDriver();
 		Home home = PageFactory.initElements(driver, Home.class);
-		String url = "https://www.gmail.com";
+		String url = "https://www.qksell.com";
 		driver.get(url);
 		driver.manage().window().maximize();
-		home.login("hello@gmail.com");
+		home.signInClick();
 		
 	}
 }

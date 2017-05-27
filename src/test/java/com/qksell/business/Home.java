@@ -8,9 +8,13 @@ public class Home extends com.qksell.page.Home_{
 		super(driver);
 	}
 	
-	public void login( String email) {
+	/*public void login( String email) {
 		getEmail().clear();
 		getEmail().sendKeys(email);
+	}*/
+	
+	public void signInClick() {
+		getSignIn().click();
 	}
 	
 }
