@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class Home extends com.qksell.page.Home_{
 
 	public Home(WebDriver driver) {
-		super(driver);
+		super(driver);	
 	}
 	
 	/*public void login( String email) {
