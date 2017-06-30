@@ -26,5 +26,4 @@ public class Home_ extends Base{
 		return driver.findElement(signIn);
 	}
 	
-
 }
