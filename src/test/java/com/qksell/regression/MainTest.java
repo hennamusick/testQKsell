@@ -26,6 +26,8 @@ public class MainTest {
 				Login login = PageFactory.initElements(driver, Login.class);
 				login.login("hennayaka121@gmail.com", "passwd!@#$");
 				login.submitClick();
+				
+				
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
