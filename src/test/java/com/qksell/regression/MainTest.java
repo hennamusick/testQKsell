@@ -28,7 +28,6 @@ public class MainTest {
 				login.submitClick();
 				
 				
-				
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
